@@ -59,7 +59,7 @@ h4 {
     float: none;
 }
 
-.section-headfing {
+.section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
@@ -152,6 +152,17 @@ header {
     letter-spacing: 2px;
 }
 
+/*------------Three Reasons*/
+
+.three-reasons-icon {
+    font-size: 20px;
+    color: #8B1E3F;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
 /*------------Footer*/
 
 footer {
@@ -173,7 +184,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #e84610;
+    color: #89BD9E;
 }
 
 .social-links {
@@ -197,7 +208,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #89BD9E;
 }
 
 #footer-details {
