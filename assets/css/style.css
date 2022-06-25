@@ -34,7 +34,11 @@
     background-color: #8B1E3F;
 }
 
-/*------------Speacial paddings/margins/text*/
+.bg-color-contact {
+    background-color: #fff;
+}
+
+/*------------Special paddings/margins/text*/
 
 h1,
 h2,
@@ -276,6 +280,28 @@ header {
     margin-bottom: 30px;
 }
 
+/*------------Contact Form*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #F0C987;
+}
+
 /*------------Footer*/
 
 footer {
@@ -344,4 +370,21 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/*------------Media Queries*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 676px) {
+    .title {
+        margin-bottom: 150px;
+    }
 }
