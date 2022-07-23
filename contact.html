@@ -3,57 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-        integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"> -->
-    <script src="https://kit.fontawesome.com/9ef0b95bd9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-        type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Gordon Bates</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/github-information.js"></script>
+    <title>Gordon</title>
 </head>
 
 <body>
     <header>
         <div class="row no-gutters">
             <a class="col-md-4 logo" href="02-index.html"></a>
-            <div class="col-md-8">
+             <div class="col-md-8">
                 <div class="row no-gutters bg-color-name-title">
                     <div class="col heading">
-                        <h1 class="name"> Gordon Bates</h1>
-                        <h2 class="title">Student Full Stack Developer</h2>
+                        <h1 class="name">Gordon Bates</h1>
+                        <h2 class="title">Full Stack Developer</h2>
                     </div>
                 </div>
                 <div class="row no-gutters">
                     <div class="col">
-                        <ul id="nav" class="list-inline menucontainer">
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
-                                <a href="index.html" class="hvr-wobble-vertical"><i class="fas fa-home"
-                                        aria-hidden="true"></i><span>Home</span></a>
+                        <ul id="nav" class="list-inline menucontainer row">
+                            <li class="col-xs-6 col-sm-2 ui-menu-color-home menuitem">
+                                <a href="index.html" class="hvr-wobble-vertical"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume menuitem">
-                                <a href="resume.html" class="hvr-wobble-vertical"><i class="fa fa-graduation-cap"
-                                        aria-hidden="true"></i><span>Resume</span></a>
+                            <li class="col-xs-6 col-sm-2 ui-menu-color-resume menuitem">
+                                <a href="resume.html" class="hvr-wobble-vertical"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
-                                <a href="contact.html" class="hvr-wobble-vertical"><i class="fas fa-comment-dots"
-                                        aria-hidden="true"></i><span>Contact</span></a>
+                            <li class="col-xs-6 col-sm-2 ui-menu-color-contact menuitem">
+                                <a href="contact.html" class="hvr-wobble-vertical"><i class=" fa fa-commenting-o" aria-hidden="true"></i><span>Contact</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menuitem">
-                                <a href="assets/cv/gordonbatescv.pdf" target="_blank" class="hvr-wobble-vertical"><i class="fas fa-cloud-download-alt"
-                                        aria-hidden="true"></i><span>Download
-                                        CV</span></a>
+                            <li class="col-xs-6 col-sm-2 ui-menu-color-interests menuitem">
+                                <a href="interests.html" class="hvr-wobble-vertical"><i class="fa fa-users" aria-hidden="true"></i><span>Interests</span></a>
+                            </li>
+                            <li class="col-xs-6 col-sm-2 ui-menu-color-github menuitem">
+                                <a href="github.html" class="hvr-wobble-vertical"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+                            </li>
+                            <li class="col-xs-6 col-sm-2 ui-menu-color-download menuitem">
+                                <a href="assets/cv/gordonbatescv.pdf" target="_blank" class="hvr-wobble-vertical"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
+
             </div>
         </div>
     </header>
-
     <section class="container-fluid">
         <div class="row bg-color-contact">
             <div class="col">
@@ -63,10 +63,8 @@
                 <div class="center-form">
                     <form>
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
-                            required />
-                        <textarea rows="5" name="projectsummary" id="emailaddress" class="form-control"
-                            placeholder="Project description" required></textarea>
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
                                 <button type="submit" class="btn btn-secondary">Send Project Request</button>
@@ -74,27 +72,26 @@
                         </div>
                     </form>
                 </div>
+
             </div>
         </div>
-    </section>
 
+    </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
-                    Student Full Stack Web Developer. Learning HTML, CSS, JavaScript & Python using frameworks
-                    Bootstrap, Flask, JQuery & Django. The capacity for structural and
-                    design thinking.
+                    Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
                 </p>
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Download</h5>
                 <p class="inline-block">
                     Need a printable version of my CV? Download it here.
-                    <a href="assets/cv/gordonbatescv.pdf" target="_blank" class="cv-pdf">
-                        <i class="fas fa-cloud-download-alt" aria-hidden="true"></i>
-                        <span class="sr-only">Download Link</span>
+                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Download link.</span>
                     </a>
                 </p>
             </div>
@@ -102,33 +99,39 @@
                 <h5 class="uppercase general-sub">Social</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://github.com/gordonbates">
-                            <i class="fab fa-github-square github" aria-hidden="true"></i>
-                            <span class="sr-only">GitHub</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.linkedin.com/in/gordon-bates-266136224/">
-                            <i class="fab fa-linkedin linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/batesgordon">
-                            <i class="fab fa-facebook-square facebook" aria-hidden="true"></i>
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://twitter.com/gordon_bates">
-                            <i class="fab fa-twitter-square twitter" aria-hidden="true"></i>
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com/gordon_bates/?hl=en">
-                            <i class="fab fa-instagram-square instagram" aria-hidden="true"></i>
+                        <a target="_blank" href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
                         </a>
                     </li>
                 </ul>
@@ -136,5 +139,4 @@
         </div>
     </footer>
 </body>
-
 </html>
