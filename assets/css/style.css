@@ -4,32 +4,18 @@
 
 .bg-color-name-title {
     background-color: #676767;
-    /* background: url("../images/coding2.png"); */
-    /* background-size: 10%; */
 }
 
-.bg-color-name-title::before {    
+.bg-color-name-title::before {
     content: "";
     background-image: url('../images/coding2.png');
-    background-size: 12.5%;
+    background-size: 7%;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     opacity: 0.2;
-}
-
-.bg-color-name-title::after {
-    content: "";
-    /* background: url("../images/coding2.png"); */
-    opacity: 0.5;
-    /* top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute; */
-    z-index: -1;
 }
 
 .bg-color-three-reasons {
@@ -62,27 +48,33 @@
 
 .ui-menu-color-home {
     background-color: #483C46;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 .ui-menu-color-resume {
     background-color: #3C6E71;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 .ui-menu-color-contact {
     background-color: #70AE6E;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 .ui-menu-color-download {
     background-color: #92B4F4;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 
 .ui-menu-color-github {
     background-color: #F4743B;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 .ui-menu-color-interests {
     background-color: #D7263D;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 
@@ -240,7 +232,7 @@ footer .cv-pdf i {
 }
 
 footer .cv-pdf i:hover {
-    color: #e84610;
+    color: #92B4F4;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -269,10 +261,6 @@ footer .cv-pdf i:hover {
 
 .social-links li a i:hover {
     background: #e84610;
-}
-
-#footer-details {
-    margin: 20px;
 }
 
 /*--------------------------------------------Three Reasons*/
