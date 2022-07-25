@@ -264,6 +264,10 @@ footer .cv-pdf i:hover {
     background: #e84610;
 }
 
+#footer-details {
+    margin: 20px;
+}
+
 /*--------------------------------------------Three Reasons*/
 
 .three-reasons-icon {
